@@ -1,0 +1,73 @@
+.user{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5%;
+    .item{
+        width: 30%;
+        margin: 20px 0;
+    }
+    h6{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 17px;
+    }
+}
+
+.state{
+    position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 30%);
+    .green{
+        color: green;
+    }
+    button{
+        font-size: 20px;
+        padding: 15px 35px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        margin-bottom: 25px;
+    }
+}
+
+.popup{
+    text-align: center;
+    margin-top: 10%;
+    .card{
+        z-index: 3;
+        border: 1px solid #ddd;
+        width: 30%;
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    h1{
+        font-size: 25px
+    }
+    p{
+        font-size: 18px;
+        margin: 25px;
+    }
+
+    .backdrop{
+        z-index: 2;
+        position: fixed;
+        top: 0;left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    }
+    button{
+        font-size: 20px;
+        padding: 15px 35px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+}
